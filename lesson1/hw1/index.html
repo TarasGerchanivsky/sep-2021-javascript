@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+
+//    - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+//        Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+    // let asd1 = 'hello';
+    // let asd2 = 'owu';
+    // let asd3 = 'com';
+    // let asd4 = 'ua';
+    // let asd5 = 1;
+    // let asd6 = 10;
+    // let asd7 = -999;
+    // let asd8 = 123;
+    // let asd9 = 3.14;
+    // let asd10 = 2.7;
+    // let asd11 = 16;
+    // let asd12='true';
+    // let asd13 = 'false';
+
+    // console.log(asd1); alert(asd1); document.write(asd1);
+    // console.log(asd2); alert(asd2); document.write(asd2);
+    // console.log(asd3); alert(asd3); document.write(asd3);
+    // console.log(asd4); alert(asd4); document.write(asd4);
+    // console.log(asd5); alert(asd5); document.write(asd5);
+    // console.log(asd6); alert(asd6); document.write(asd6);
+    // console.log(asd7); alert(asd7); document.write(asd7);
+    // console.log(asd8); alert(asd8); document.write(asd8);
+    // console.log(asd9); alert(asd9); document.write(asd9);
+    // console.log(asd10); alert(asd10); document.write(asd10);
+    // console.log(asd11); alert(asd11); document.write(asd11);
+    // console.log(asd12); alert(asd12); document.write(asd12);
+    // console.log(asd13); alert(asd13); document.write(asd13);
+
+// - Переприсвоїти кожній змінній з завдання значення на довільне.
+//     Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+    // asd1 = 'bye';
+    // asd2 = 'okten';
+    // asd3 = 'som';
+    // asd4 = 'en';
+    // asd5 = 4;
+    // asd6 = 100;
+    // asd7 = 999;
+    // asd8 = 321;
+    // asd9 = 14.3;
+    // asd10 = 7.2;
+    // asd11 = 61;
+    // asd12='false';
+    // asd13 = 'true';
+
+    // console.log(asd1); alert(asd1); document.write(asd1);
+    // console.log(asd2); alert(asd2); document.write(asd2);
+    // console.log(asd3); alert(asd3); document.write(asd3);
+    // console.log(asd4); alert(asd4); document.write(asd4);
+    // console.log(asd5); alert(asd5); document.write(asd5);
+    // console.log(asd6); alert(asd6); document.write(asd6);
+    // console.log(asd7); alert(asd7); document.write(asd7);
+    // console.log(asd8); alert(asd8); document.write(asd8);
+    // console.log(asd9); alert(asd9); document.write(asd9);
+    // console.log(asd10); alert(asd10); document.write(asd10);
+    // console.log(asd11); alert(asd11); document.write(asd11);
+    // console.log(asd12); alert(asd12); document.write(asd12);
+    // console.log(asd13); alert(asd13); document.write(asd13);
+
+    // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+    //
+    let firstName = 'Тарас';
+    let middleName = 'Дмитрович';
+    let lastName = 'Герчанівський';
+    let person = `${firstName} ${middleName} ${lastName}`;
+    //
+    // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+    //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+
+    let x = prompt('name');
+  let y = prompt('middleName');
+    let z = prompt ('age');
+    console.log(`Вітаю  ${x} ${y} Тобі ${z} років`)
+
+    // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+        let a1 = 100; let b = '100'; let c = true;
+        console.log(typeof a1);  /*number*/
+        console.log(typeof b);    /*string*/
+        console.log(typeof c);    /*boolean*/
+
+    // - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+    //     В однакових виразах не використовувати однакові оператори!!!
+    // 5 ? 6 -> true
+    // 5 ? 6 -> false
+    // 5 ? 6 -> false
+    // 5 ? 6 -> false
+    // 10 ? 10 -> true
+    // 10 ? 10 -> true
+    // 10 ? 10 -> false
+    // 10 ? 10 -> false
+    // 10 ? 10 -> false
+    // 123 ? '123' -> false
+    // 123 ? '123' -> true
+    console.log(5<6);
+    console.log(5>6);
+    console.log(5 === 6);
+    console.log(5 >= 6);
+    console.log(10 === 10);
+    console.log(10 == 10);
+    console.log(10 > 10);
+    console.log(10 !== 10);
+    console.log(10 != 10);
+    console.log(123 === '123');
+    console.log(123 == '123');
+
+    // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+        let str = "20";
+    let a = 5;
+    document.write(str + a + "<br/>");   /*а набуває стрінгового значення*/
+    document.write(str - a + "<br/>");
+    document.write(str * "2" + "<br/>");    /* дія (- * /) тільки для числових значень.Тому стрінга набуває значення number*/
+    document.write(str / 2 + "<br/>");
+
+
+</script>
+
+
+</body>
+</html>
