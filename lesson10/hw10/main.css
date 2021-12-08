@@ -1,0 +1,12 @@
+.hide {
+    height: 0;
+    overflow: hidden;
+}
+.menu {
+    background: silver;
+    min-height: 20px;
+}
+.hide-comment {
+    height: 0;
+    overflow: hidden;
+}
