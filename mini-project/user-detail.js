@@ -88,6 +88,7 @@ for (const user of userDetail) {
                     };
                 }
             })
+        btn.disabled = true;
     }
 }
 
